@@ -1,0 +1,40 @@
+   
+# Project 0 - UVVM Bootstrap
+
+## Goal
+
+Establish a minimal UVVM environment that can be used with:
+
+- GHDL
+- GTKWave
+
+without modifying large portions of the UVVM framework.
+
+---
+
+## UVVM Version
+
+Repository used:
+
+UVVM Utility Library
+
+---
+
+## GHDL Environment
+
+Verified with:
+
+- GHDL 5.1.1
+- VHDL-2008
+- GTKWave
+
+---
+
+## Current Limitation
+
+The following packages could not be compiled successfully in the current setup:
+
+```vhdl
+-- use uvvm_util.vendor_rand_extension_pkg.all;
+-- use uvvm_util.rand_pkg.all;
+-- use uvvm_util.func_cov_pkg.all;
