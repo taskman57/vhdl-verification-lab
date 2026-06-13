@@ -34,11 +34,22 @@ Current environment:
 
 ### Project 1 - Counter Verification
 
-Project 1 introduces basic verification of a simple synchronous counter.
+Completed a full verification flow using a simple counter design.
 
-#### Current Status (Commit 1)
+#### Achievements
 
-- Counter DUT implemented
-- One directed testbench implemented (`tb_counter_basic.vhd`)
-- Verification based on assertions and step-by-step checking
-- Waveform inspection using GTKWave
+- Directed verification testbench implemented
+- Procedure-based automated self-checking testbench implemented
+- Session-based error tracking signal added (`error_detected`)
+- Repeated verification sessions supported
+- Introduction of reusable checker concept
+
+#### Learning Outcome
+
+This project demonstrates the evolution from basic directed verification to scalable self-checking testbench design.
+
+---
+
+#### Status
+
+✔ Completed
