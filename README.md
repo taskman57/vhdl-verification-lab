@@ -32,10 +32,13 @@ Current environment:
 
 ---
 
-### Project 0 - UVVM Bootstrap
+### Project 1 - Counter Verification
 
-Establish a lightweight UVVM environment compatible with GHDL.
+Project 1 introduces basic verification of a simple synchronous counter.
 
-See:
+#### Current Status (Commit 1)
 
-project0_uvvm_bootstrap/README.md
+- Counter DUT implemented
+- One directed testbench implemented (`tb_counter_basic.vhd`)
+- Verification based on assertions and step-by-step checking
+- Waveform inspection using GTKWave
